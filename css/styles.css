@@ -331,24 +331,60 @@ nav h1 a {
 }
 
 
-@media screen and (min-width: 972px){
-	html{
-		width: 972px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+@media screen and (min-width: 972px) {
 	.filter-options select {
 		font-size: 13pt;
 		width: 220px;
 	}
 	.filter-options label {
-		font-size: 1.5em;
+		font-size: 2em;
+	}
+	#restaurants-list {
+		justify-content: space-between;
+	}
+	#restaurants-list li {
+		padding: 0 10px 20px;
+		margin: 21px;
+		width: 251px;
+		height: 402px;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	#restaurants-list li {
+		width: 290px;
+		height: 410px;
+	}
+}
+
+@media screen and (min-width: 1260px) {
+	.filter-options label {
+		display: inline-block;
 	}
 	#restaurants-list {
 		justify-content: flex-start;
 	}
 	#restaurants-list li {
-		padding: 0 10px 20px;
-		margin: 12px;
+		margin: 10px;
+		width: 271px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 1330px) {
+	#restaurants-list li {
+		margin: 18px;
+	}
+}
+
+@media screen and (min-width: 1407px) {
+	#restaurants-list li {
+		margin: 27px;
+	}
+}
+
+@media screen and (min-width: 1460px) {
+	#restaurants-list li {
+		margin: 35px;
 	}
 }
